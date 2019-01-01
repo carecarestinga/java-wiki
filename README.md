@@ -47,4 +47,4 @@ Consulte a [Wiki](https://github.com/wilsonjuniorwj/java-wiki/wiki) para obter a
 
 ## Licença
 
-É gratuito sobre a licença [open-source MIT license](/LICENSE).
+É livre sobre a licença [open-source MIT license](/LICENSE).
