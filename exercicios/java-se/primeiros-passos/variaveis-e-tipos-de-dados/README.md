@@ -7,68 +7,68 @@
 ---
 02. Escreva um programa Java, que exiba o nome de uma pessoa, idade, peso e altura. 
 
-- [ ] Feito
+- [x] Feito
 
 ---
 03. Escreva um programa Java, que contenha duas variáveis do tipo inteiro e duas do tipo flutuante, exiba os valores de todas as variáveis utilizando os métodos System.out.println; System.out.print e System.out.printf.  
 
-- [ ] Feito
+- [x] Feito
 
 ---
 04. Escreva um programa Java, que some os valores de duas variáveis e exiba o resultado. 
 
-- [ ] Feito
+- [x] Feito
 
 ---
 05.  Faça um programa que peça um número e então mostre a mensagem "O número informado foi **número**. Use a classe Scanner para receber os dados no console.  
 
-- [ ] Feito
+- [x] Feito
 
 ---
 06.  Escreva um programa Java, que receba um valor e exiba o seu triplo.  
 
-- [ ] Feito
+- [x] Feito
 
 ---
 07.  Escreva um programa em Java que recebe dois números, sendo um inteiro e outro flutuante e exiba seus valores. O número flutuante deve ter apenas duas casas decimais na impressão.
 
-- [ ] Feito
+- [x] Feito
 
 ---
 08.  Faça um programa que peça as 4 notas bimestrais e mostre a média.  
 
-- [ ] Feito
+- [x] Feito
 
 ---
 09.  Construa um algoritmo que receba um nome e imprima na tela o nome todo em caixa alta.  
 
-- [ ] Feito
+- [x] Feito
 
 
 ---
 10.  Escreva um programa Java, que receba dois números e some; subtrair; multiplica e divide e exiba o resultado de cada operação. 
 
-- [ ] Feito
+- [x] Feito
 
 ---
 11.  Escreva um algoritmo, que receba o nome, idade e saldo com várias casas decimais. Depois imprima na tela os dados recebidos usando apenas um método System.out.printf. O nome de saída deverá está todo em caixa alta e o saldo com apenas duas casas decimais.
 
-- [ ] Feito
+- [x] Feito
 
 ---
 12.  Crie um algoritmo que armaze cada um dos seguintes cinco valores em uma variável char. char a = 80; char b = 65; char c = 66; char d = 76; char e = 79. Após isso, use o método System.out.print() para cada variável char e veja o resultado na tela.
 
-- [ ] Feito
+- [x] Feito
 
 ---
 13.  Faça um programa que converta metros para centímetros.
 
-- [ ] Feito
+- [x] Feito
 
 ---
 14.  Faça um programa que peça o raio de um círculo, calcule e mostre sua circunferência. **Obs: Circunferência = 2 * raio * pi**
 
-- [ ] Feito
+- [x] Feito
 
 ---
 15.  Faça um programa que calcula a área de um quadrado, em seguida mostre o dobro desta área para o usuário. **Obs: Área = lado^2 ou Área = b.h **
