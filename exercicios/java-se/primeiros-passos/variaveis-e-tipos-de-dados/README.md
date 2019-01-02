@@ -40,7 +40,7 @@
 - [ ] Feito
 
 ---
-09.  Construa um algoritmo que receba um nome e imprima na tela o nome todo em caixa alta e depois em caixa baixa.  
+09.  Construa um algoritmo que receba um nome e imprima na tela o nome todo em caixa alta.  
 
 - [ ] Feito
 
@@ -51,7 +51,7 @@
 - [ ] Feito
 
 ---
-11.  Escreva um algoritmo, que receba o nome, idade e saldo com várias casas decimais. Imprima na tela os dados recebidos usando apenas um método System.out.printf. O nome de saída deverá está todo em caixa alta e o saldo com apenas duas casas decimais.
+11.  Escreva um algoritmo, que receba o nome, idade e saldo com várias casas decimais. Depois imprima na tela os dados recebidos usando apenas um método System.out.printf. O nome de saída deverá está todo em caixa alta e o saldo com apenas duas casas decimais.
 
 - [ ] Feito
 
@@ -66,12 +66,12 @@
 - [ ] Feito
 
 ---
-14.  Faça um programa que peça o raio de um círculo, calcule e mostre sua área.
+14.  Faça um programa que peça o raio de um círculo, calcule e mostre sua circunferência. **Obs: Circunferência = 2 * raio * pi**
 
 - [ ] Feito
 
 ---
-15.  Faça um programa que calcula a área de um quadrado, em seguida mostre o dobro desta área para o usuário.
+15.  Faça um programa que calcula a área de um quadrado, em seguida mostre o dobro desta área para o usuário. **Obs: Área = lado^2 ou Área = b.h **
 
 - [ ] Feito
 
