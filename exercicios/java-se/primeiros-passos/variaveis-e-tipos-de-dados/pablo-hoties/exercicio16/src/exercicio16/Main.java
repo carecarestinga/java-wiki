@@ -7,19 +7,18 @@ public static void main(String[] args) {
 	
 	Scanner ler = new Scanner(System.in);
 	
-	double saldophora;
-	double horaspmes;
-	double saldopdia;
-	double saldopmes;
+	double saldoPorHora;
+	double horasPorMes;
+	double saldoPorMes;
 	
-	System.out.println("Digite o quanto você ganha por hora: ");
-	saldophora = ler.nextDouble();
-	System.out.println("Digite o número de horas trabalhadas por mês: ");
-	horaspmes = ler.nextDouble();
-	saldopdia = saldophora * 24;
-	saldopmes = saldopdia * 30;
+	System.out.print("Digite o quanto você ganha por hora: ");
+	saldoPorHora = ler.nextDouble();
+	System.out.print("Digite o número de horas trabalhadas por mês: ");
+	horasPorMes = ler.nextDouble();
+	saldoPorMes = horasPorMes * saldoPorHora;
+	System.out.println("Neste mẽs ganhastes: " + saldoPorMes);
 	
-	System.out.println("Neste mẽs ganhastes: " + saldopmes);
+	
 	
 }
 }
