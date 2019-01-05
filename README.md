@@ -1,4 +1,4 @@
-<img src=https://raw.githubusercontent.com/wiki/wilsonjuniorwj/java-wiki/images/java-wiki-logo-tagline-850.png>
+<img src=https://raw.githubusercontent.com/wiki/wilsonjuniorwj/java-wiki/java-wiki-logo-tagline-850.png>
 
 # Java Wiki: Diversos conteúdos e exercícios do mundo Java
  [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/wilsonjuniorwj/java-wiki/blob/master/LICENSE)
