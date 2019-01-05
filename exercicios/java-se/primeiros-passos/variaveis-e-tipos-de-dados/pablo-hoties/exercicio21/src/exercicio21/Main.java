@@ -14,8 +14,6 @@ public class Main {
 		double a;
 		double b;
 		double c;
-		double operacaoa1;
-		double operacaoac1;
 		
 		System.out.print("Digite o primeiro valor inteiro: ");
 		valor1 = ler.nextInt();
@@ -24,15 +22,13 @@ public class Main {
 		System.out.print("Digite um valor real: ");
 		valor3 = ler.nextDouble();
 		
-		operacaoa1 = valor2 / 2;
-		a = valor1 + operacaoa1 * 2;
-		operacaoac1 = valor1 * 3;
-		b = operacaoac1 + valor3;
+		a = (valor1 * 2) * (valor2 / 2);
+		b = (valor1 * 3) + valor3;
 		c = Math.pow(valor3, 3);
 		
-		System.out.println("A)" + a);
-		System.out.println("B)" + b);
-		System.out.printf("C)%.2f", c);
+		System.out.println("A) " + a);
+		System.out.println("B) " + b);
+		System.out.printf("C) %.2f", c);
 		
 	}
 

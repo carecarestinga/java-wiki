@@ -12,9 +12,9 @@ public class Main {
 		double temperaturaEmFahrenheit;
 		
 		System.out.print("Digite uma temperatura em Celsius: ");
-		temperaturaEmCelsius = ler.nextInt();
+		temperaturaEmCelsius = ler.nextDouble();
 		temperaturaEmFahrenheit = 1.8 * temperaturaEmCelsius + 32;
-		System.out.printf("A temperatura em Fahrenheit é: %.0f", temperaturaEmFahrenheit);
+		System.out.printf("A temperatura em Fahrenheit é: %.2f", temperaturaEmFahrenheit);
 		
 	}
 
