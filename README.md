@@ -5,7 +5,7 @@
 
 Java é uma das linguagens de programação mais utilizadas no mundo. 
 
-Essa Wiki tem como objetivo auxiliar nos estudos dessa linguagem tão rica e vasta. Serão abordados diversos temas do mundo Java. Na página da [Wiki](https://github.com/wilsonjuniorwj/java/wiki) você encontrará um vasto conteúdo que o auxiliará durante boa parte do início da sua jornada como desenvolvedor Java. E ao final de cada conteúdo há listas de exercícios para colocar os conhecimentos adquiridos em prática.
+Essa Wiki tem como objetivo auxiliar nos estudos dessa linguagem tão rica e vasta. Serão abordados diversos temas do mundo Java. Na página da [Wiki](https://github.com/wilsonjuniorwj/java-wiki/wiki) você encontrará um vasto conteúdo que o auxiliará durante boa parte do início da sua jornada como desenvolvedor Java. E ao final de cada conteúdo há listas de exercícios para colocar os conhecimentos adquiridos em prática.
 
 ## Conteúdos
 
