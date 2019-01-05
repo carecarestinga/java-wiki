@@ -10,7 +10,7 @@
 - [ ] Feito
 
 ---
-03. Faça um Programa que verifique se uma letra digitada é "F" ou "M". Conforme a letra escrever: F - Feminino, M - Masculino, Sexo Inválido.  
+03. Faça um Programa que verifique se uma letra digitada é "F" ou "M". Conforme a letra, escrever: F - Feminino, M - Masculino, Sexo Inválido.  
 
 - [ ] Feito
 
@@ -124,7 +124,7 @@ O algoritmo deve mostrar na tela as notas, a média, o conceito correspondente e
 - [ ] Feito
 
 ---
-16. Faça um programa que calcule as raízes de uma equação do segundo grau, na forma ax2 + bx + c. O programa deverá pedir os valores de a, b e c e fazer as consistências, informando ao usuário nas seguintes situações:
+16. Faça um programa que calcule as raízes de uma equação do segundo grau, na forma **ax2 + bx + c**. O programa deverá pedir os valores de a, b e c e fazer as consistências, informando ao usuário nas seguintes situações:
 
 * a. Se o usuário informar o valor de A igual a zero, a equação não é do segundo grau e o programa não deve fazer pedir os demais valores, sendo encerrado;
 * b. Se o delta calculado for negativo, a equação não possui raizes reais. Informe ao usuário e encerre o programa;
@@ -152,7 +152,9 @@ O algoritmo deve mostrar na tela as notas, a média, o conceito correspondente e
 * "Esteve no local do crime?"
 * "Mora perto da vítima?"
 * "Devia para a vítima?"
-* "Já trabalhou com a vítima?" O programa deve no final emitir uma classificação sobre a participação da pessoa no crime. Se a pessoa responder positivamente a 2 questões ela deve ser classificada como "Suspeita", entre 3 e 4 como "Cúmplice" e 5 como "Assassino". Caso contrário, ele será classificado como "Inocente".
+* "Já trabalhou com a vítima?" 
+
+O programa deve no final emitir uma classificação sobre a participação da pessoa no crime. Se a pessoa responder positivamente a 2 questões ela deve ser classificada como "Suspeita", entre 3 e 4 como "Cúmplice" e 5 como "Assassino". Caso contrário, ele será classificado como "Inocente".
 - [ ] Feito
 
 ---
@@ -162,7 +164,9 @@ O algoritmo deve mostrar na tela as notas, a média, o conceito correspondente e
 * 2. acima de 20 litros, desconto de 5% por litro
 * Gasolina:
 * 1. até 20 litros, desconto de 4% por litro
-* 2. acima de 20 litros, desconto de 6% por litro Escreva um algoritmo que leia o número de litros vendidos, o tipo de combustível (codificado da seguinte forma: A-álcool, G-gasolina), calcule e imprima o valor a ser pago pelo cliente sabendo-se que o preço do litro da gasolina é R$ 2,50 o preço do litro do álcool é R$ 1,90.
+* 2. acima de 20 litros, desconto de 6% por litro 
+
+Escreva um algoritmo que leia o número de litros vendidos, o tipo de combustível (codificado da seguinte forma: A-álcool, G-gasolina), calcule e imprima o valor a ser pago pelo cliente sabendo-se que o preço do litro da gasolina é R$ 2,50 o preço do litro do álcool é R$ 1,90.
 - [ ] Feito
 
 ---
