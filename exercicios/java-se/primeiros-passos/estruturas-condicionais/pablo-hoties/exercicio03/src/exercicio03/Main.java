@@ -8,17 +8,22 @@ public class Main {
 
 		Scanner ler = new Scanner(System.in);
 		
-		String letra;
+		char letra;
+		char letraCaixaBaixa;
 		
 		System.out.print("Digite m ou f (digite em minúsculo): ");
-		letra = ler.next();
+//		letra = Character.toLowerCase(ler.next().charAt(0));
 		
-		switch (letra) {
-		case "f":
+		letra = ler.next().charAt(0);
+		ler.close();
+		letraCaixaBaixa = Character.toLowerCase(letra); 
+		
+		switch (letraCaixaBaixa) {
+		case 'f':
 			System.out.println("Feminino");
 			break;
 		
-		case "m":
+		case 'm':
 			System.out.println("Masculino");
 			break;
 			

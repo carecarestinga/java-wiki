@@ -7,36 +7,38 @@ public class Main {
 	public static void main(String[] args) {
 
 		Scanner ler = new Scanner(System.in);
-		
-		String letra;
-		
+
+		char letra, letraCaixaAlta;
+
 		System.out.print("Digite uma letra (em minúsculo): ");
-		letra = ler.next();
-		
-		switch (letra) {
-		case "a":
+		letra = ler.next().charAt(0);
+		ler.close();
+		letraCaixaAlta = Character.toUpperCase(letra);
+
+		switch (letraCaixaAlta) {
+		case 'A':
 			System.out.println("Você digitou uma vogal");
 			break;
-			
-		case "e":
+
+		case 'E':
 			System.out.println("Você digitou uma vogal");
 			break;
-			
-		case "i":
+
+		case 'I':
 			System.out.println("Você digitou uma vogal");
 			break;
-			
-		case "o":
+
+		case 'O':
 			System.out.println("Você digitou uma vogal");
 			break;
-			
-		case "u":
+
+		case 'U':
 			System.out.println("Você digitou uma vogal");
 			break;
-			
+
 		default:
 			System.out.println("Você digitou uma consoante");
-		
+
 		}
 
 	}
