@@ -9,13 +9,14 @@ public class Main {
 		Scanner ler  = new Scanner(System.in);
 		
 		char turno;
+		char turnoCaixaBaixa;
 		
 		System.out.print("Digite em que turno estuda: ");
 		turno = ler.next().charAt(0);
 		ler.close();
-		Character.toLowerCase(turno);
+		turnoCaixaBaixa = Character.toLowerCase(turno);
 		
-		switch (turno) {
+		switch (turnoCaixaBaixa) {
 			case 'm':
 				System.out.println("Bom dia!");
 				break;
