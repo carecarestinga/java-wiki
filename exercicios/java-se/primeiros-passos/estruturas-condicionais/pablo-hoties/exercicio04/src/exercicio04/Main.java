@@ -17,21 +17,9 @@ public class Main {
 
 		switch (letraCaixaAlta) {
 		case 'A':
-			System.out.println("Você digitou uma vogal");
-			break;
-
 		case 'E':
-			System.out.println("Você digitou uma vogal");
-			break;
-
 		case 'I':
-			System.out.println("Você digitou uma vogal");
-			break;
-
 		case 'O':
-			System.out.println("Você digitou uma vogal");
-			break;
-
 		case 'U':
 			System.out.println("Você digitou uma vogal");
 			break;
@@ -40,6 +28,5 @@ public class Main {
 			System.out.println("Você digitou uma consoante");
 
 		}
-
 	}
 }
