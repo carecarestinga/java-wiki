@@ -2,22 +2,22 @@
 
 01. Faça um Programa que peça dois números e imprima o maior deles.
 
-- [ ] Feito
+- [x] Feito
 
 ---
 02. Faça um Programa que peça um valor e mostre na tela se o valor é positivo ou negativo. 
 
-- [ ] Feito
+- [x] Feito
 
 ---
 03. Faça um Programa que verifique se uma letra digitada é "F" ou "M". Conforme a letra, escrever: F - Feminino, M - Masculino, Sexo Inválido.  
 
-- [ ] Feito
+- [x] Feito
 
 ---
 04. Faça um Programa que verifique se uma letra digitada é vogal ou consoante.
 
-- [ ] Feito
+- [x] Feito
 
 ---
 05. Faça um programa para a leitura de duas notas parciais de um aluno. O programa deve calcular a média alcançada por aluno e apresentar:
@@ -26,33 +26,33 @@
   * A mensagem "Reprovado", se a média for menor do que sete;
   * A mensagem "Aprovado com Distinção", se a média for igual a dez.
 
-- [ ] Feito
+- [x] Feito
 
 ---
 06. Faça um Programa que leia três números e mostre o maior deles.
 
-- [ ] Feito
+- [x] Feito
 
 ---
 07. Faça um Programa que leia três números e mostre o maior e o menor deles.
 
-- [ ] Feito
+- [x] Feito
 
 ---
 08. Faça um programa que pergunte o preço de três produtos e informe qual produto você deve comprar, sabendo que a decisão é sempre pelo mais barato. 
 
-- [ ] Feito
+- [x] Feito
 
 ---
 09. Faça um Programa que leia três números e mostre-os em ordem decrescente.  
 
-- [ ] Feito
+- [x] Feito
 
 
 ---
 10. Faça um Programa que pergunte em que turno você estuda. Peça para digitar M-matutino ou V-Vespertino ou N- Noturno. Imprima a mensagem "Bom Dia!", "Boa Tarde!" ou "Boa Noite!" ou "Valor Inválido!", conforme o caso. 
 
-- [ ] Feito
+- [x] Feito
 
 ---
 11. As Organizações Tabajara resolveram dar um aumento de salário aos seus colaboradores e lhe contraram para desenvolver o programa que calculará os reajustes.
@@ -68,7 +68,7 @@
 * valor do aumento;
 * novo salário, após o aumento.
 
-- [ ] Feito
+- [x] Feito
 
 ---
 12. Faça um programa para o cálculo de uma folha de pagamento, sabendo que os descontos são do Imposto de Renda, que depende do salário bruto (conforme tabela abaixo) e 3% para o Sindicato e que o FGTS corresponde a 11% do Salário Bruto, mas não é descontado (é a empresa que deposita). O Salário Líquido corresponde ao Salário Bruto menos os descontos. O programa deverá pedir ao usuário o valor da sua hora e a quantidade de horas trabalhadas no mês.
@@ -94,7 +94,7 @@ Salário Liquido                 : R$  935,00
 ---
 13.  Faça um Programa que leia um número e exiba o dia correspondente da semana. (1-Domingo, 2- Segunda, etc.), se digitar outro valor deve aparecer valor inválido.
 
-- [ ] Feito
+- [x] Feito
 
 ---
 14.  Faça um programa que lê as duas notas parciais obtidas por um aluno numa disciplina ao longo de um semestre, e calcule a sua média. A atribuição de conceitos obedece à tabela abaixo:
@@ -110,7 +110,7 @@ Média de Aproveitamento  Conceito
 
 O algoritmo deve mostrar na tela as notas, a média, o conceito correspondente e a mensagem “APROVADO” se o conceito for A, B ou C ou “REPROVADO” se o conceito for D ou E.
 
-- [ ] Feito
+- [x] Feito
 
 ---
 15. Faça um Programa que peça os 3 lados de um triângulo. O programa deverá informar se os valores podem ser um triângulo. Indique, caso os lados formem um triângulo, se o mesmo é: equilátero, isósceles ou escaleno.
@@ -121,32 +121,24 @@ O algoritmo deve mostrar na tela as notas, a média, o conceito correspondente e
 * Triângulo Isósceles: quaisquer dois lados iguais;
 * Triângulo Escaleno: três lados diferentes;
 
+- [x] Feito
+
+---
+16. Faça um Programa que peça um número correspondente a um determinado ano e em seguida informe se este ano é ou não bissexto. 
+- [x] Feito
+
+---
+17. Faça um Programa que peça um número inteiro e determine se ele é par ou impar. Dica: utilize o operador módulo (resto da divisão).  
 - [ ] Feito
 
 ---
-16. Faça um programa que calcule as raízes de uma equação do segundo grau, na forma **ax2 + bx + c**. O programa deverá pedir os valores de a, b e c e fazer as consistências, informando ao usuário nas seguintes situações:
-
-* a. Se o usuário informar o valor de A igual a zero, a equação não é do segundo grau e o programa não deve fazer pedir os demais valores, sendo encerrado;
-* b. Se o delta calculado for negativo, a equação não possui raizes reais. Informe ao usuário e encerre o programa;
-* c. Se o delta calculado for igual a zero a equação possui apenas uma raiz real; informe-a ao usuário;
-- [ ] Feito
-
----
-17. Faça um Programa que peça um número correspondente a um determinado ano e em seguida informe se este ano é ou não bissexto. 
-- [ ] Feito
-
----
-18. Faça um Programa que peça um número inteiro e determine se ele é par ou impar. Dica: utilize o operador módulo (resto da divisão).  
-- [ ] Feito
-
----
-19. Faça um Programa que leia 2 números e em seguida pergunte ao usuário qual operação ele deseja realizar. O resultado da operação deve ser acompanhado de uma frase que diga se o número é:
+18. Faça um Programa que leia 2 números e em seguida pergunte ao usuário qual operação ele deseja realizar. O resultado da operação deve ser acompanhado de uma frase que diga se o número é:
 * par ou ímpar;
 * positivo ou negativo;
 - [ ] Feito
 
 ---
-20.  Faça um programa que faça 5 perguntas para uma pessoa sobre um crime. As perguntas são:
+19.  Faça um programa que faça 5 perguntas para uma pessoa sobre um crime. As perguntas são:
 
 * "Telefonou para a vítima?"
 * "Esteve no local do crime?"
@@ -155,10 +147,10 @@ O algoritmo deve mostrar na tela as notas, a média, o conceito correspondente e
 * "Já trabalhou com a vítima?" 
 
 O programa deve no final emitir uma classificação sobre a participação da pessoa no crime. Se a pessoa responder positivamente a 2 questões ela deve ser classificada como "Suspeita", entre 3 e 4 como "Cúmplice" e 5 como "Assassino". Caso contrário, ele será classificado como "Inocente".
-- [ ] Feito
+- [x] Feito
 
 ---
-21. Um posto está vendendo combustíveis com a seguinte tabela de descontos:
+20. Um posto está vendendo combustíveis com a seguinte tabela de descontos:
 * Álcool:
 * 1. até 20 litros, desconto de 3% por litro
 * 2. acima de 20 litros, desconto de 5% por litro
@@ -170,7 +162,7 @@ Escreva um algoritmo que leia o número de litros vendidos, o tipo de combustív
 - [ ] Feito
 
 ---
-22. Uma fruteira está vendendo frutas com a seguinte tabela de preços:
+21. Uma fruteira está vendendo frutas com a seguinte tabela de preços:
 ```
                       Até 5 Kg           Acima de 5 Kg
 Morango         R$ 2,50 por Kg          R$ 2,20 por Kg
@@ -180,7 +172,7 @@ Se o cliente comprar mais de 8 Kg em frutas ou o valor total da compra ultrapass
 - [ ] Feito
 
 ---
-23. O Hipermercado Tabajara está com uma promoção de carnes que é imperdível. Confira:
+22. O Hipermercado Tabajara está com uma promoção de carnes que é imperdível. Confira:
 ```
                       Até 5 Kg           Acima de 5 Kg
 File Duplo      R$ 4,90 por Kg          R$ 5,80 por Kg
