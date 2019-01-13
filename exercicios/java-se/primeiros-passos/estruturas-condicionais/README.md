@@ -89,7 +89,7 @@ Total de descontos              : R$  165,00
 Salário Liquido                 : R$  935,00
 ```
 
-- [ ] Feito
+- [x] Feito
 
 ---
 13.  Faça um Programa que leia um número e exiba o dia correspondente da semana. (1-Domingo, 2- Segunda, etc.), se digitar outro valor deve aparecer valor inválido.
@@ -129,13 +129,13 @@ O algoritmo deve mostrar na tela as notas, a média, o conceito correspondente e
 
 ---
 17. Faça um Programa que peça um número inteiro e determine se ele é par ou impar. Dica: utilize o operador módulo (resto da divisão).  
-- [ ] Feito
+- [x] Feito
 
 ---
 18. Faça um Programa que leia 2 números e em seguida pergunte ao usuário qual operação ele deseja realizar. O resultado da operação deve ser acompanhado de uma frase que diga se o número é:
 * par ou ímpar;
 * positivo ou negativo;
-- [ ] Feito
+- [x] Feito
 
 ---
 19.  Faça um programa que faça 5 perguntas para uma pessoa sobre um crime. As perguntas são:
