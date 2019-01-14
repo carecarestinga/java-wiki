@@ -4,8 +4,8 @@ import java.util.Scanner;
 
 public class Main {
 
-	private static double precoDoCombustivelEmAlcool = 1.90;
-	private static double precoDoCombustivelEmGasolina = 1.50;
+	private static final double PRECO_DO_COMBUSTIVEL_EM_GASOLINA = 1.50;
+	private final static double PRECO_DO_COMBUSTIVEL_EM_ALCOOL = 1.90;
 
 	public static void main(String[] args) {
 
@@ -13,7 +13,8 @@ public class Main {
 		
 		double numeroDeLitrosVendidos;
 		String tipoDeCombustivel;
-		double desconto = 0;
+		double porcentagemDoDesconto = 0;
+		double desconto;
 		double precoDoCombustivelBruto = 0;
 		double precoDoCombustivelLiquido = 0;
 		
@@ -22,24 +23,28 @@ public class Main {
 		System.out.print("Digite o tipo de Combustivel que desejas (A - Álcool, G - Gasolina): ");
 		tipoDeCombustivel = ler.next();
 		
-		if (tipoDeCombustivel == "A") {
-			precoDoCombustivelBruto = numeroDeLitrosVendidos * precoDoCombustivelEmAlcool;
+		if (tipoDeCombustivel.equalsIgnoreCase("A")) {
+			precoDoCombustivelBruto = numeroDeLitrosVendidos * PRECO_DO_COMBUSTIVEL_EM_ALCOOL;
 			if (numeroDeLitrosVendidos <= 20) {
-				desconto = 0.03;
+				porcentagemDoDesconto = 0.03;
 			} else {
-				desconto = 0.05;
+				porcentagemDoDesconto = 0.05;
 			}
-		} else if (tipoDeCombustivel == "G") {
-			precoDoCombustivelBruto = numeroDeLitrosVendidos * precoDoCombustivelEmGasolina;
+		} else if (tipoDeCombustivel.equalsIgnoreCase("G")) {
+			precoDoCombustivelBruto = numeroDeLitrosVendidos * PRECO_DO_COMBUSTIVEL_EM_GASOLINA;
 			if (numeroDeLitrosVendidos <= 20) {
-				desconto = 0.03;
+				porcentagemDoDesconto = 0.03;
 			} else {
-				desconto = 0.06;
+				porcentagemDoDesconto = 0.06;
 			}
 		}
 		
+		desconto = precoDoCombustivelBruto * porcentagemDoDesconto;
 		precoDoCombustivelLiquido = precoDoCombustivelBruto - desconto;
-		System.out.printf("Você deverá pagar %.2f",precoDoCombustivelLiquido);
+		System.out.printf("Número de litros vendidos: %.0f%n", numeroDeLitrosVendidos);
+		System.out.printf("Tipo de combustível: %s%n", tipoDeCombustivel);
+		System.out.printf("Valor a ser pago: %.2f%n", precoDoCombustivelLiquido);
+		
 	}
-
+	
 }
