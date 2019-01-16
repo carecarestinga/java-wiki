@@ -21,6 +21,7 @@ public class Main {
 			}
 		}
 		
+		ler.close();
 		if (ePrimo) {
 			System.out.println("Esse número é primo!");
 		} else {
