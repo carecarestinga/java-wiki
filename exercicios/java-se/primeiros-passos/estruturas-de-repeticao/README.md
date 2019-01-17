@@ -2,11 +2,11 @@
 
 01. Faça um programa que peça uma nota, entre zero e dez. Mostre uma mensagem caso o valor seja inválido e continue pedindo até que o usuário informe um valor válido.
 
-- [ ] Feito
+- [x] Feito
 
 ---
 02. Faça um programa que leia um nome de usuário e a sua senha e não aceite a senha igual ao nome do usuário, mostrando uma mensagem de erro e voltando a pedir as informações.
-- [ ] Feito
+- [x] Feito
 
 ---
 03. Faça um programa que leia e valide as seguintes informações:
@@ -17,7 +17,7 @@
 * d. Sexo: 'f' ou 'm';
 * e. Estado Civil: 's', 'c', 'v', 'd';
 
-- [ ] Feito
+- [x] Feito
 
 ---
 04. Supondo que a população de um país A seja da ordem de 80.000 habitantes com uma taxa anual de crescimento de 3% e que a população de B seja 200.000 habitantes com uma taxa de crescimento de 1.5%. Faça um programa que calcule e escreva o número de anos necessários para que a população do país A ultrapasse ou iguale a população do país B, mantidas as taxas de crescimento.
@@ -32,38 +32,38 @@
 ---
 06. Faça um programa que imprima na tela os números de 1 a 20, um abaixo do outro. Depois modifique o programa para que ele mostre os números um ao lado do outro.
 
-- [ ] Feito
+- [x] Feito
 
 ---
 07. Faça um programa que leia 5 números e informe o maior número.
 
-- [ ] Feito
+- [x] Feito
 
 ---
 08. Faça um programa que leia 5 números e informe o menor número.
 
-- [ ] Feito
+- [x] Feito
 
 ---
 09. Faça um programa que leia 5 números e informe a soma e a média dos números.
 
-- [ ] Feito
+- [x] Feito
 
 ---
 10. Faça um programa que imprima na tela apenas os números ímpares entre 1 e 50.
 
-- [ ] Feito
+- [x] Feito
 
 
 ---
 11. Faça um programa que receba dois números inteiros e gere os números inteiros que estão no intervalo compreendido por eles.
 
-- [ ] Feito
+- [x] Feito
 
 ---
 12. Altere o programa anterior para mostrar no final a soma dos números.
 
-- [ ] Feito
+- [x] Feito
 
 ---
 13. Desenvolva um gerador de tabuada, capaz de gerar a tabuada de qualquer número inteiro entre 1 a 10. O usuário deve informar de qual numero ele deseja ver a tabuada. A saída deve ser conforme o exemplo abaixo:
@@ -76,7 +76,7 @@ Tabuada de 5:
 5 x 10 = 50
 ```
 
-- [ ] Feito
+- [x] Feito
 
 ---
 14. Faça um programa que peça dois números, base e expoente, calcule e mostre o resultado. Não utilize o método de potência da linguagem.
@@ -105,7 +105,7 @@ Tabuada de 5:
 
 ---
 19. Faça um programa que peça um número inteiro e determine se ele é ou não um número primo. Um número primo é aquele que é divisível somente por ele mesmo e por 1.
-- [ ] Feito
+- [x] Feito
 
 ---
 20. Faça um programa que calcule e mostre a média aritmética de N notas.
