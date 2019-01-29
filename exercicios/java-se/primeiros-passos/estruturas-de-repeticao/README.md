@@ -86,7 +86,7 @@ Tabuada de 5:
 ---
 15. Faça um programa que peça 10 números inteiros, calcule e mostre a quantidade de números pares e a quantidade de números impares.
 
-- [ ] Feito
+- [x] Feito
 
 ---
 16. A série de Fibonacci é formada pela sequência 1,1,2,3,5,8,13,21,34,55… Faça um programa capaz de gerar a série até o n−ésimo termo.
@@ -109,15 +109,15 @@ Tabuada de 5:
 
 ---
 20. Faça um programa que calcule e mostre a média aritmética de N notas.
-- [ ] Feito
+- [x] Feito
 
 ---
 21. Faça um programa que peça para n pessoas a sua idade, ao final o programa devera verificar se a média de idade da turma varia entre 0 e 25, 26 e 60 e maior que 60; e então, dizer se a turma é jovem, adulta ou idosa, conforme a média calculada.
-- [ ] Feito
+- [x] Feito
 
 ---
 22. Faça um programa que calcule o número médio de alunos por turma. Para isto, peça a quantidade de turmas e a quantidade de alunos para cada turma. As turmas não podem ter mais de 40 alunos.
-- [ ] Feito
+- [x] Feito
 
 ---
 23. Faça um programa que calcule o valor total investido por um colecionador em sua coleção de CDs e o valor médio gasto em cada um deles. O usuário deverá informar a quantidade de CDs e o valor para em cada um.
