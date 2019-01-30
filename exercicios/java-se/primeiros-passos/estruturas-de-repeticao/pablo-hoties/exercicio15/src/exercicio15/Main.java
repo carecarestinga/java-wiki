@@ -15,7 +15,6 @@ public class Main {
 		for (int i = 0; i < 10; i++) {
 			System.out.println("Digite um número inteiro: ");
 			numero = ler.nextInt();
-			ler.close();
 			
 			if (numero % 2 == 0) {
 				numerosPares++;
@@ -24,6 +23,7 @@ public class Main {
 			}
 		}
 		
+		ler.close();
 		System.out.println("A quantidade de números pares são: " + numerosPares);
 		System.out.println("A quantidade de números ímpares são: " + numerosImpares);
 		

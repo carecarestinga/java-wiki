@@ -8,30 +8,30 @@ public class Main {
 
 		Scanner ler = new Scanner(System.in);
 		
-		int repeticoes;
+		int quantidade;
 		int idade;
 		int soma = 0;
-		double divisaoEMedia;
+		double media;
 		String faixaEtaria = "Vazia";
 		
 		
 		System.out.println("Quantas pessoas teram nesta turma?");
-		repeticoes = ler.nextInt();
+		quantidade = ler.nextInt();
 		
-		for (int i = 0; i < repeticoes; i++) {
+		for (int i = 0; i < quantidade; i++) {
 			System.out.print("Digite uma idade: ");
 			idade = ler.nextInt();
 			soma = soma + idade;
 		}
 		
 		ler.close();
-		divisaoEMedia = soma / repeticoes;
+		media = soma / quantidade;
 		
-		if (divisaoEMedia > 0 && divisaoEMedia < 26) {
+		if (media >= 0 && media <= 25) {
 			faixaEtaria = "Jovem";
-		} else if ( divisaoEMedia > 26 && divisaoEMedia < 61) {
+		} else if ( media >= 26 && media <= 60) {
 			faixaEtaria = "Adulta";
-		} else if (divisaoEMedia > 61) {
+		} else if (media >= 61) {
 			faixaEtaria = "Idosa";
 		}
 		System.out.println("A faixa etária da turma é: " + faixaEtaria);

@@ -11,7 +11,7 @@ public class Main {
 		int repeticoes;
 		double nota;
 		double soma = 0;
-		double divisaoEMedia;
+		double media;
 		
 		System.out.println("Digite quantas notas aritméticas irá existir nesse programa? ");
 		repeticoes = ler.nextInt();
@@ -23,9 +23,9 @@ public class Main {
 		}
 		
 		ler.close();
-		divisaoEMedia = soma / repeticoes;
+		media = soma / repeticoes;
 		
-		System.out.println("A média aritmética é: " + divisaoEMedia);
+		System.out.println("A média aritmética é: " + media);
 	}
 
 }
