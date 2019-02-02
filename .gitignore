@@ -45,4 +45,5 @@ bin/
 # SonarLint working directories, configuration files (including credentials)
 .sonarlint/
 
-# End of https://www.gitignore.io/api/sonarqube
+# Others
+oop/
