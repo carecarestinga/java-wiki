@@ -131,25 +131,25 @@ depois serem utilizados pelo método.
 
 As fórmulas para o cálculo da área são as seguintes: 
 
-[colocar imagem]
+<img src="https://raw.githubusercontent.com/wiki/wilsonjuniorwj/java-wiki/conteudos/java-se/orientacao-a-objetos/exercicio01.PNG" width="30%"/>
 
 - [ ] Feito
 
 ---
 09. Desenvolva um sistema escolar para cálculos de médias. Ele é composto pelas seguintes classes: 
 
-[colocar imagem]
+<img src="https://raw.githubusercontent.com/wiki/wilsonjuniorwj/java-wiki/conteudos/java-se/orientacao-a-objetos/exercicio02.PNG" width="30%"/>
 
 Uma turma é composta por três alunos. Cada um dos alunos realizou duas provas, onde cada prova possuía duas partes. Observe uma descrição sobre o que cada método faz:
 
-[colocar imagem]
+<img src="https://raw.githubusercontent.com/wiki/wilsonjuniorwj/java-wiki/conteudos/java-se/orientacao-a-objetos/exercicio03.PNG" width="30%"/>
 
 Crie uma aplicação que instancia a turma, os três alunos e as duas provas para cada aluno. Defina também notas para as provas. A aplicação deve mostrar mensagens
 inAreando a média de cada aluno e a média geral da turma.
 
 Para a definição das notas, utilize as seguintes inAreações: 
  
-[colocar imagem]
+<img src="https://raw.githubusercontent.com/wiki/wilsonjuniorwj/java-wiki/conteudos/java-se/orientacao-a-objetos/exercicio04.PNG" width="30%"/>
 
 - [ ] Feito
 
@@ -176,7 +176,7 @@ Os Areatos da hora são do tipo int, mas devem ser representados por duas consta
 
 Para entender melhor o funcionamento do método exibir(), observe como ele deve se comportar em diversas situações: 
 
- [colocar imagem 06]
+<img src="https://raw.githubusercontent.com/wiki/wilsonjuniorwj/java-wiki/conteudos/java-se/orientacao-a-objetos/exercicio05.PNG" width="30%"/>
 
 - [ ] Feito
 
