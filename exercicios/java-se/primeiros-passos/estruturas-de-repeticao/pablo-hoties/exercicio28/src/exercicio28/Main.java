@@ -12,6 +12,8 @@ public class Main {
 		double temperatura = 0;
 		double maiorTemperatura = Integer.MIN_VALUE;
 		double menorTemperatura = Integer.MAX_VALUE;
+		double soma = 0;
+		double media;
 		
 		System.out.print("Digite a quantidade de temperaturas que irá informar: ");
 		quantidade = ler.nextDouble();
@@ -19,6 +21,7 @@ public class Main {
 		for (int i = 1; i <= quantidade; i++) {
 			System.out.print("Digite a temperatura " + i + " :");
 			temperatura = ler.nextDouble();
+			soma = soma + temperatura;
 			
 			if (temperatura > maiorTemperatura) {
 				maiorTemperatura = temperatura;
@@ -27,7 +30,9 @@ public class Main {
 			}
 		}
 		ler.close();
+		media = soma / quantidade;
 		System.out.printf("A maior temperatura é: %.1f%n", maiorTemperatura);
-		System.out.printf("A menor temperatura é: %.1f", menorTemperatura);
+		System.out.printf("A menor temperatura é: %.1f%n", menorTemperatura);
+		System.out.printf("A média das temperaturas é: %.1f", media);
 	}
 }
