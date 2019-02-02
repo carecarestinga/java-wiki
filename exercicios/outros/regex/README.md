@@ -1,7 +1,8 @@
 ## Colocando em Prática
 
-**arquivo.txt** Uma tarefa muito comum no dia a dia do desenvolvedor é parsear um arquivo linha a linha, onde cada linha representa um dado ou registro. Há vários tipos de arquivos, vamos usar um arquivo txt com as seguintes linhas:
+Uma tarefa muito comum no dia a dia do desenvolvedor é parsear um arquivo linha a linha, onde cada linha representa um dado ou registro. Há vários tipos de arquivos, vamos usar um arquivo txt com as seguintes linhas:
 
+**arquivo.txt**
 ```java
 João Fulano,123.456.789-00,21 de Maio de 1993,(21) 3079-9987,Rua do Ouvidor,50,20040-030,Rio de Janeiro
 Maria Fulana, 98765432100,11 de Abril de 1995,(11) 933339871,Rua Vergueiro,3185,04101-300,São Paulo
@@ -130,7 +131,14 @@ BALEIRO GARROTE SERROTE GOLEIRO ROTEIRO
 Escreva uma expressão regular que faça match apenas com as palavras GARROTE, SERROTE e ROTEIRO. Depois crie um sistema em Java para testar o Regex.
 
 ---
-12. Precisamos ajudar os correios a entregar corretamente suas correspondências. Para tal, disponibilizaram-nos um arquivo com diversas linhas, nas quais são necessárias as informações: Nome, Rua, Número e CEP.
+12. Você precisa validar o username abaixo e criar uma classe de teste para testar os vários cenários:
+
+* O limite é de 10 caracteres;
+* O primeiro caractere deve ser uma letra do alfabeto, não pode ser um número;
+* A partir do segundo caractere podemos ter letras maiúsculas, minúsculas e números;
+
+---
+13. Precisamos ajudar os correios a entregar corretamente suas correspondências. Para tal, disponibilizaram-nos um arquivo com diversas linhas, nas quais são necessárias as informações: Nome, Rua, Número e CEP.
 
 As outras informações também devem ser separadas para futuros serviços dos correios, porém não precisamos capturá-las neste momento.
 
@@ -143,6 +151,20 @@ Leonardo Cordeiro|01/01/1995|Rua de Campo Grande|01|00001-234|Rio de Janeiro
 Tente montar uma regex que realize esse trabalho e depois crie um sistema implementando essa expressão regular.
 
 ---
-13. Como podemos, através de regex alterar o formato de uma data 2007-12-31 para 31-12-2007?
+14. Como podemos, através de regex alterar o formato de uma data 2007-12-31 para 31-12-2007?
 
 Dica: use os grupos para formar uma nova String com a data correta.
+
+---
+15. Um agente secreto conseguiu capturar a seguinte mensagem criptografada:
+
+```
+Z171PZ7AZ23PZ7819AZ78GZ1AZ99IZ34O
+```
+
+Depois de algum tempo, ele descobriu a seguinte lei de formação: cada letra da palavra recebe o prefixo Z, mas não apenas isso. A letra Z é seguida de um número com um ou mais dígitos.
+
+Com base nessa informação ultra secreta, crie uma expressão regular que consiga evidenciar a palavra secreta. ATENÇÃO: para resolver este problema você precisará trabalhar com grupos.
+
+
+
