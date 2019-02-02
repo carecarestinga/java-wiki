@@ -22,12 +22,12 @@
 ---
 04. Supondo que a população de um país A seja da ordem de 80.000 habitantes com uma taxa anual de crescimento de 3% e que a população de B seja 200.000 habitantes com uma taxa de crescimento de 1.5%. Faça um programa que calcule e escreva o número de anos necessários para que a população do país A ultrapasse ou iguale a população do país B, mantidas as taxas de crescimento.
 
-- [ ] Feito
+- [x] Feito
 
 ---
 05. Altere o programa anterior permitindo ao usuário informar as populações e as taxas de crescimento iniciais. Valide a entrada e permita repetir a operação.
 
-- [ ] Feito
+- [x] Feito
 
 ---
 06. Faça um programa que imprima na tela os números de 1 a 20, um abaixo do outro. Depois modifique o programa para que ele mostre os números um ao lado do outro.
@@ -81,7 +81,7 @@ Tabuada de 5:
 ---
 14. Faça um programa que peça dois números, base e expoente, calcule e mostre o resultado. Não utilize o método de potência da linguagem.
 
-- [ ] Feito
+- [x] Feito
 
 ---
 15. Faça um programa que peça 10 números inteiros, calcule e mostre a quantidade de números pares e a quantidade de números impares.
@@ -91,17 +91,17 @@ Tabuada de 5:
 ---
 16. A série de Fibonacci é formada pela sequência 1,1,2,3,5,8,13,21,34,55… Faça um programa capaz de gerar a série até o n−ésimo termo.
 
-- [ ] Feito
+- [x] Feito
 
 ---
 17. A série de Fibonacci é formada pela sequência 0,1,1,2,3,5,8,13,21,34,55… Faça um programa que gere a série até que o valor seja maior que 500.
 
-- [ ] Feito
+- [x] Feito
 
 ---
 18. Faça um programa que calcule o fatorial de um número inteiro fornecido pelo usuário. Ex.: 5!=5.4.3.2.1=120
 
-- [ ] Feito
+- [x] Feito
 
 ---
 19. Faça um programa que peça um número inteiro e determine se ele é ou não um número primo. Um número primo é aquele que é divisível somente por ele mesmo e por 1.
@@ -173,7 +173,17 @@ Fatorial de: 5
 - [x] Feito
 
 ---
-29. Os números primos possuem várias aplicações dentro da Computação, por exemplo, na Criptografia. Um número primo é aquele que é divisível apenas por um e por ele mesmo. Faça um programa que peça um número inteiro e determine se ele é ou não um número primo.
+29. O cardápio de uma lanchonete é o seguinte:
+```java
+Especificação   Código  Preço
+Cachorro Quente 100     R$ 1,20
+Bauru Simples   101     R$ 1,30
+Bauru com ovo   102     R$ 1,50
+Hambúrguer      103     R$ 1,20
+Cheeseburguer   104     R$ 1,30
+Refrigerante    105     R$ 1,00
+```
+Faça um programa que leia o código dos itens pedidos e as quantidades desejadas. Calcule e mostre o valor a ser pago por item (preço * quantidade) e o total geral do pedido. Considere que o cliente deve informar quando o pedido deve ser encerrado.
 - [ ] Feito
 
 ---
@@ -201,18 +211,4 @@ Tabuada de 5 começando em 4 e terminando em 7:
 * a. Esse funcionário foi contratado em 1995, com salário inicial de R$ 1.000,00;
 * b. Em 1996 recebeu aumento de 1,5% sobre seu salário inicial;
 * c. A partir de 1997 (inclusive), os aumentos salariais sempre correspondem ao dobro do percentual do ano anterior. Faça um programa que determine o salário atual desse funcionário. Após concluir isto, altere o programa permitindo que o usuário digite o salário inicial do funcionário.
-- [ ] Feito
-
----
-33. O cardápio de uma lanchonete é o seguinte:
-```java
-Especificação   Código  Preço
-Cachorro Quente 100     R$ 1,20
-Bauru Simples   101     R$ 1,30
-Bauru com ovo   102     R$ 1,50
-Hambúrguer      103     R$ 1,20
-Cheeseburguer   104     R$ 1,30
-Refrigerante    105     R$ 1,00
-```
-Faça um programa que leia o código dos itens pedidos e as quantidades desejadas. Calcule e mostre o valor a ser pago por item (preço * quantidade) e o total geral do pedido. Considere que o cliente deve informar quando o pedido deve ser encerrado.
 - [ ] Feito
