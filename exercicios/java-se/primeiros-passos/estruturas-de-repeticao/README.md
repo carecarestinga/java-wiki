@@ -158,7 +158,7 @@ Dinheiro: R$ 20.00
 Troco: R$ 11.00
 ...
 ```
-- [ ] Feito
+- [x] Feito
 
 ---
 27. Faça um programa que calcule o fatorial de um número inteiro fornecido pelo usuário. Ex.: 5!=5.4.3.2.1=120. A saída deve ser conforme o exemplo abaixo:
@@ -166,7 +166,7 @@ Troco: R$ 11.00
 Fatorial de: 5
 5! =  5 . 4 . 3 . 2 . 1 = 120
 ```
-- [ ] Feito
+- [x] Feito
 
 ---
 28. O Departamento Estadual de Meteorologia lhe contratou para desenvolver um programa que leia um conjunto indeterminado de temperaturas, e informe ao final a menor e a maior temperatura informadas, bem como a média das temperaturas.
@@ -184,11 +184,11 @@ Cheeseburguer   104     R$ 1,30
 Refrigerante    105     R$ 1,00
 ```
 Faça um programa que leia o código dos itens pedidos e as quantidades desejadas. Calcule e mostre o valor a ser pago por item (preço * quantidade) e o total geral do pedido. Considere que o cliente deve informar quando o pedido deve ser encerrado.
-- [ ] Feito
+- [x] Feito
 
 ---
 30. Encontrar números primos é uma tarefa difícil. Faça um programa que gera uma lista dos números primos existentes entre 1 e um número inteiro informado pelo usuário.
-- [ ] Feito
+- [x] Feito
 
 ---
 31. Desenvolva um programa que faça a tabuada de um número qualquer inteiro que será digitado pelo usuário, mas a tabuada não deve necessariamente iniciar em 1 e terminar em 10, o valor inicial e final devem ser informados também pelo usuário, conforme exemplo abaixo:
@@ -210,5 +210,5 @@ Tabuada de 5 começando em 4 e terminando em 7:
 32. Um funcionário de uma empresa recebe aumento salarial anualmente: Sabe-se que:
 * a. Esse funcionário foi contratado em 1995, com salário inicial de R$ 1.000,00;
 * b. Em 1996 recebeu aumento de 1,5% sobre seu salário inicial;
-* c. A partir de 1997 (inclusive), os aumentos salariais sempre correspondem ao dobro do percentual do ano anterior. Faça um programa que determine o salário atual desse funcionário. Após concluir isto, altere o programa permitindo que o usuário digite o salário inicial do funcionário.
-- [ ] Feito
+* c. A partir de 1997 (inclusive), os aumentos salariais sempre correspondem ao dobro do percentual do ano de 1997. Faça um programa que determine o salário atual desse funcionário. Após concluir isto, altere o programa permitindo que o usuário digite o salário inicial do funcionário.
+- [x] Feito
