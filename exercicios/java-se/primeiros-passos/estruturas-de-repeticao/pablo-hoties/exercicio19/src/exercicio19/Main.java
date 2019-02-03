@@ -11,7 +11,7 @@ public class Main {
 		int numero;
 		boolean ePrimo = true;
 
-		System.out.print("Digite um nÃºmero: ");
+		System.out.print("Digite um número: ");
 		numero = ler.nextInt();
 
 		for (int i = 2; i <= numero; i++) {
@@ -23,9 +23,9 @@ public class Main {
 		
 		ler.close();
 		if (ePrimo) {
-			System.out.println("Esse nÃºmero Ã© primo!");
+			System.out.println("Esse número é primo!");
 		} else {
-			System.out.println("Esse nÃºmero nÃ£o Ã© primo!");
+			System.out.println("Esse número não é primo!");
 		}
 	}
 
