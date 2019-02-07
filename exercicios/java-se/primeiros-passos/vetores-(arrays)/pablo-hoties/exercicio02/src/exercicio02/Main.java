@@ -11,10 +11,10 @@ public class Main {
 		int[] vetorA = new int[8];
 		int[] vetorB = new int[8];
 
-		for (int i = 0; i < vetorA.length; i++) {
-			System.out.print("Digite um inteiro que estará no indíce " + i + " : ");
-			vetorA[i] = ler.nextInt();
-			vetorB[i] = (vetorA[i] * 2);
+		for (int p = 0; p < vetorA.length; p++) {
+			System.out.print("Digite um inteiro que estará no indíce " + p + " : ");
+			vetorA[p] = ler.nextInt();
+			vetorB[p] = (vetorA[p] * 2);
 		}
 		ler.close();
 		System.out.println();
