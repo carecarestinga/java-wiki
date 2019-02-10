@@ -22,6 +22,6 @@ public class Main {
 				contador++;
 			}
 		}
-		System.out.println("O quantidade de números pares digitados foi/foram: " + contador);
+		System.out.println("A quantidade de números pares digitados foi/foram: " + contador);
 	}
 }

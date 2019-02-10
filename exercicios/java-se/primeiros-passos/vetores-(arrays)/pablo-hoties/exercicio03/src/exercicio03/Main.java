@@ -19,7 +19,7 @@ public class Main {
 		ler.close();
 		System.out.println("");
 		for (int p = 0; p < vetorA.length; p++) {
-			System.out.println("Mostrando o que está no vetorB e no indíce " + p + " : " + vetorB[p]);
+			System.out.println("Mostrando o quadrado do vetorB e no indíce " + p + " : " + vetorB[p]);
 		}
 	}
 }

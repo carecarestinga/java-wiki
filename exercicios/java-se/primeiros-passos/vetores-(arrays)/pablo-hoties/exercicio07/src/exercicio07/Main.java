@@ -29,7 +29,7 @@ public class Main {
 			} else {
 				vetorC[p] = vetorB[p] - vetorA[p];
 			}
-			System.out.println("Exibindo o número inteiro que está no vetorC e no indíce " + p + " : " + vetorC[p]);
+			System.out.println("Mostrando a subtração do vetorA e vetorB no indíce " + p + " : " + vetorC[p]);
 		}
 	}
 }

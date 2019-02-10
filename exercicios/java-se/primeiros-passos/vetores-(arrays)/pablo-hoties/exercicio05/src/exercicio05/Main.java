@@ -19,7 +19,7 @@ public class Main {
 		System.out.println("");
 		for (int p = 0; p < vetorA.length; p++) {
 			vetorB[p] = vetorA[p] * p;
-			System.out.println("Mostrando o valor do vetorA que está no indíce " + p + " : " + vetorB[p]);
+			System.out.println("Mostrando a multiplicação do vetorA vezes a posição " + p + " : " + vetorB[p]);
 		}
 	}
 }

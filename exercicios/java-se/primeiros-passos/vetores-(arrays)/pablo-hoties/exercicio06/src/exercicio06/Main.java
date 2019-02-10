@@ -25,7 +25,7 @@ public class Main {
 		System.out.println("");
 		for (int p = 0; p < vetorC.length; p++) {
 			vetorC[p] = vetorA[p] + vetorB[p];
-			System.out.println("Mostrando o valor inteiro que está no vetorC e no indíce " + p + " : " + vetorC[p]);
+			System.out.println("Mostrando a soma do vetorA e vetorB no indíce " + p + " : " + vetorC[p]);
 		}
 	}
 }

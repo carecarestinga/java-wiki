@@ -1,4 +1,4 @@
-package exercicio10;
+package exercicio04;
 
 import java.util.Scanner;
 
@@ -8,18 +8,17 @@ public class Main {
 
 		Scanner ler = new Scanner(System.in);
 		
-		int[] vetorA = new int[10];
-		int[] vetorB = new int[10];
+		double[] vetorA = new double[15];
+		double[] vetorB = new double[15];
 		
-		for (int p = 0; p < vetorA.length; p++) {
+		for (int p = 0; p < vetorA.length;  p++) {
 			System.out.print("Digite um número inteiro que estará no vetorA e no indíce " + p + " : ");
 			vetorA[p] = ler.nextInt();
 		}
 		ler.close();
-		System.out.println("");
 		for (int p = 0; p < vetorB.length; p++) {
-			vetorB[p] = vetorA[p]  % 2;
-			System.out.println("Exibindo o resto da divisão do vetorA por 2 no indíce " + p + " : " + vetorB[p]);
+			vetorB[p] = Math.sqrt(vetorA[p]);
+			System.out.printf("Mostrando a raiz quadrada do vetorA no indíce %d : %.2f%n", p, vetorB[p]);
 		}
 	}
 }
